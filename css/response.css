@@ -245,6 +245,9 @@ min-width  모바일 태블릿 데스크탑 */
   #wrap #main #section8 .container .right p {
     text-align: center;
   }
+  #wrap #main #section5 .title {
+    display: none;
+  }
   #wrap #footer .container .top .wrap ul li .mobile {
     display: block;
   }

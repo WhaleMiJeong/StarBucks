@@ -308,36 +308,11 @@
     #section1 {
       width: 100%;
       height: 637px;
-      background: #d1131d;
+      background:url(../images/starbucks03.jpg)no-repeat 50% 50%;
+      background-size:cover;
 
       .container {
         position: relative;
-
-        .star {
-          position: absolute;
-        }
-
-        .star1 {
-          width: 47px;
-          z-index: 1;
-          top: 301px;
-          left: 211px;
-
-          img {
-            width: 100%;
-          }
-        }
-
-        .star2 {
-          width: 29px;
-          z-index: 1;
-          top: 186px;
-          right: 0px;
-
-          img {
-            width: 100%;
-          }
-        }
 
         .img {
           position: absolute;
@@ -345,9 +320,9 @@
         }
 
         .img1 {
-          width: 328px;
-          bottom: 451.972px;
-          left: 1px;
+          width: 355px;
+          bottom: 420px;
+          left: -5px;
 
           img {
             width: 100%;
@@ -355,10 +330,10 @@
         }
 
         .img2 {
-          width: 435px;
+          width: 551px;
           z-index: 2;
-          bottom: 76px;
-          left: 127px;
+          bottom: 110px;
+          left: 190px;
 
           img {
             width: 100%;
@@ -366,10 +341,10 @@
         }
 
         .img3 {
-          width: 357px;
+          width: 454px;
           z-index: 2;
-          bottom: 68px;
-          left: 509px;
+          bottom: 200px;
+          left: 440px;
 
           img {
             width: 100%;
@@ -377,10 +352,10 @@
         }
 
         .img4 {
-          width: 448px;
+          width: 373px;
           z-index: 2;
-          bottom: 58px;
-          right: -133px;
+          bottom: 40px;
+          right: -100px;
 
           img {
             width: 100%;
@@ -391,16 +366,16 @@
           width: 129px;
           height: 39px;
           z-index: 2;
-          bottom: 372px;
+          bottom: 350px;
           left: 100px;
 
           a {
             display: block;
             width: 100%;
             height: 100%;
-            border: 2px solid #fff;
+            border: 2px solid #e95a87;
             border-radius: 5px;
-            color: #fff;
+            color: #e95a87;
             background: transparent;
             text-align: center;
             line-height: 34px;
@@ -856,7 +831,7 @@
     #section4 {
       width: 100%;
       height: 573px;
-      background: #ffa59c url(../images/section4_bg.jpg) no-repeat 50% 50%;
+      background: url(../images/section4_bg.jpg) no-repeat 50% 50%;
       background-size: cover;
       overflow: hidden;
 
@@ -947,7 +922,7 @@
       position: relative;
       width: 100%;
       height: 400px;
-      background: #094a3d;
+      background:#F0DFC1;
 
       &.addFadein::after {
         content: '';
@@ -979,7 +954,8 @@
             width: 100%;
 
             img {
-              width: 100%;
+              width: 70%;
+              margin-bottom:25px;
             }
           }
 
@@ -987,7 +963,7 @@
             text-align: center;
 
             a {
-              margin: 0 0 0 200px;
+              margin:0;
               display: inline-block;
               width: 125px;
               height: 38px;
@@ -1877,12 +1853,4 @@
   a img {
     width: 100%;
   }
-}
-
-.validator {
-  z-index: 3;
-  position: fixed;
-  left: 15px;
-  bottom: 15px;
-  width: 80px;
 }

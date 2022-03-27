@@ -469,6 +469,7 @@ min-width  모바일 태블릿 데스크탑 */
     line-height: 40px;
     background: #645952;
     position: relative;
+    display: none;
   }
   #wrap #footer .container .top .wrap ul li dl dd a {
     color: #e6dbd3;

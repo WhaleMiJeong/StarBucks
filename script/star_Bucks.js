@@ -11,11 +11,12 @@
               this.section5();
               this.section6();
               this.section7();
-              this.section8();
+              this.section8(); 
               this.section9();
               this.goTop();
               this.quickMenu();
               this.mobiliNav();
+              this.footer();
           },
           header:function(){
 
@@ -486,10 +487,6 @@
                   quickMenuFn();
               });
           },
-
-
-
-
           mobiliNav: function(){ //open
             $('.berger-btn').on({
               click:function(e){
@@ -528,6 +525,17 @@
                 $('.mobile-container li a.none-sub').removeClass('addMobile');
               }
             });
+          },
+          footer:function(){
+            var footer = $('#footer'),
+                dl = footer.find('dl'),
+                dt = dl.find('dt');
+      
+                dt.click(function(e){
+                  e.preventDefault();
+                  $(this).parent().find('dd').stop().slideToggle()
+                  $(this).toggleClass('show')
+                })
           }
     }  
     
